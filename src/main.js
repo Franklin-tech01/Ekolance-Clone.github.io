@@ -1,12 +1,10 @@
-// const hams = document.querySelector(".ham")
-// const menu = document.querySelector(".nav__link")
 
-// hams.addEventListener("click",() => {
-//     hams.classList.toggle("active");
-//     menu.classList.toggle("active");
-// })
+// Get the hamburger button and the menu
+const hamburger = document.querySelector('.hamburger');
+const menu = document.querySelector('.nav__links');
 
-// document.querySelector(".link").forEach(n => n.addEventListener("click", () => {
-//     hams.classList.remove("active")
-//     menu.classList.remove("active")
-// }))
+// Add event listener to the hamburger button
+hamburger.addEventListener('click', function() {
+  // Toggle the "show" class on the menu
+  menu.classList.toggle('show');
+});

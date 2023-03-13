@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ekolance</title>
     <link rel="stylesheet" href="eko.css">
 </head>
 
@@ -14,15 +14,18 @@
         <header>
             <!-- <div class="cont"> -->
             <nav>
+                <button class="hamburger">
+                    <span class="hamburger__line"></span>
+                    <span class="hamburger__line"></span>
+                    <span class="hamburger__line"></span>
+                </button>
                 <p class="logo">ekolance</p>
                 <ul class="nav__links">
                     <li> <a href="#">Home</a></li>
                     <li> <a href="#">About Us</a></li>
-                    <li> <a href="#">Fundings</a></li>
                     <li> <a href="#">Contracts</a></li>
-                    <!-- <li class=".btn"> </li> -->
                 </ul>
-                <a class="cta" href=""><button>Hire Developers</button></a>
+                <a class="cta" href=""><button class="join">Hire Developers</button></a>
             </nav>
             <!-- </div> -->
         </header>
@@ -141,21 +144,20 @@
             <h6>Don't just take our word for it</h6>
             <p>we give you value</p>
         </div>
-        <div class="wrapper">
-            <div class="flex">
-                <div class="card one">
-                    <img src="/img/pexels-anastasiya-gepp-1462630.jpg" alt="" id="last">
-                    <p> I have used this platform to free lance as a SWE and iwould say itss very helpful and its
-                        really solving problems.
-                    </p>
-                </div>
-                <br class="white">
-                <div class="card two">
-                    <img src="/img/pexels-fady-hany-1466844.jpg" alt="" id="last">
-                    <p> I have used this platform to free lance as a SWE and iwould say itss very helpful and its
-                        really solving problems.
-                    </p>
-                </div>
+
+
+        <div class="grid__container">
+            <div class="item-a">
+                <img src="/img/pexels-fady-hany-1466844.jpg" alt="" id="last">
+                <p> I have used this platform to free lance as a SWE and iwould say itss very helpful and its
+                    really solving problems.
+                </p>
+            </div>
+            <div class="item-b">
+                <img src="/img/pexels-fady-hany-1466844.jpg" alt="" id="last">
+                <p> I have used this platform to free lance as a SWE and iwould say itss very helpful and its
+                    really solving problems.
+                </p>
             </div>
         </div>
     </div>
@@ -197,7 +199,7 @@
 
         </div>
     </div>
-    <!-- <script src="/src/main.js"></script> -->
+    <script src="/src/main.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
