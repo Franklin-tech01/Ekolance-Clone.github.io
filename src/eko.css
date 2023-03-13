@@ -376,8 +376,9 @@ nav {
     display: grid;
     grid-template-areas: "a a a b b b";
     gap: 20px;
-    width: 80%;
+    width: 100%;
     margin: auto;
+    color: white;
 }
 
 
@@ -396,7 +397,7 @@ nav {
 }
 
 #last {
-    width: 10vw;
+    width: 15vw;
     height: 20vh;
     border-radius: 50%;
 }
