@@ -109,7 +109,7 @@ nav {
 
 .content__one h1 {
     font-family: Arial;
-    font-size: 4rem;
+    font-size: 3.5rem;
     color: white;
 }
 
@@ -491,7 +491,7 @@ nav {
 }
 
 
-@media screen and (max-width:992px) {
+@media screen and (max-width: 1082px) {
 
 
     nav {
